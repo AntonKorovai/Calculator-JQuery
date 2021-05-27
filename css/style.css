@@ -1,0 +1,112 @@
+.wrapper_calculator {
+    margin: 60px auto;
+    width:400px;
+    height: 480px;
+    background-color:  #5b5c5d24;
+    border-radius: 30px;
+    border: 1px solid #0000003d;
+    box-shadow: #656060d1 0px 0px 20px 4px;
+}
+.calculator {
+    display: inline-block;
+    position: relative;
+    width:330px;
+    margin: 44px 35px;
+}
+
+.wrapper_screen {
+    display: flex;
+    position: relative;
+}
+
+.screen {
+    display: block;
+    box-shadow: #656060d1 inset 0px 0px 4px 0px;
+    width: 304px;
+    height: 50px;
+    background-color: #80808052;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 20px 21px 0px 0px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.secondScreen {
+    position: absolute;
+    width: 306px;
+    height: 18px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 1px 0px 0px 0px;
+    font-family: sans-serif;
+}
+
+.wrapper_buttons {
+    display: flex;
+}
+
+.container_buttons_numbers {
+    width: 240px;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 0%;
+    border-color: white;
+    border-style: none;
+    background-color: #2d2a2a7d;
+}
+
+.container_buttons_operations {
+    margin-left: 10px;
+    width: 80px;
+}
+
+.button_operation {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 0%;
+    border-color: white;
+    border-style: none;
+    background-color: rgb(236, 138, 14);
+    font-size: 20px;
+}
+
+.equal {
+    position: absolute;
+    right: 97px;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #2d2a2aad;
+}
+
+.button_operation:hover {
+    background-color: #bf7517;
+}
+
+.button:focus {
+   outline: none;
+}
+
+.button:active {
+    box-shadow: #1f1d1d87 inset 0px 0px 8px 5px;
+ }
+
+
+.button_operation:focus {
+    outline: none;
+}
+
+.button_operation:active {
+    box-shadow: #1f1d1d87 inset 0px 0px 8px 5px;
+}
