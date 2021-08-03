@@ -79,6 +79,18 @@
     font-size: 20px;
 }
 
+.button_result {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 0%;
+    border-color: white;
+    border-style: none;
+    background-color: rgb(236, 138, 14);
+    font-size: 20px;
+}
+
 .equal {
     position: absolute;
     right: 97px;
@@ -91,6 +103,10 @@
 }
 
 .button_operation:hover {
+    background-color: #bf7517;
+}
+
+.button_result:hover {
     background-color: #bf7517;
 }
 
@@ -108,5 +124,13 @@
 }
 
 .button_operation:active {
+    box-shadow: #1f1d1d87 inset 0px 0px 8px 5px;
+}
+
+.button_result:focus {
+    outline: none;
+}
+
+.button_result:active {
     box-shadow: #1f1d1d87 inset 0px 0px 8px 5px;
 }
